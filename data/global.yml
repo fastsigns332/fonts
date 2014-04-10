@@ -1,0 +1,8 @@
+# ============================================================================ #
+# Global Data
+#
+# Access in views from `data.global.foo`
+# ============================================================================ #
+
+default_title: Title
+default_description: Description

@@ -1,0 +1,13 @@
+/
+  Grid Preview
+  Configure columns to match number in assets/stylesheets/base/_grid.sass
+  Toggle by pressing "g"
+
+- columns = 12
+
+#grid-preview
+  #grid-preview-columns
+    .section-content
+      .row
+        - columns.times do |i|
+          .column #{i + 1}

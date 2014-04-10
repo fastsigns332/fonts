@@ -1,0 +1,26 @@
+!!! 5
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+= partial :head
+
+%body{:class => current_page.data.page_class, :id => current_page.data.page_id}
+
+  .page
+    .page-body
+      .page-body-wrap
+        .page-content
+          = yield_content :before_content
+          = yield
+          = yield_content :after_content
+
+    .page-footer
+      .section-grid
+        %p.copyright &copy; 2014 Kai Zau. All rights reserved.
+
+    - if development?
+      = partial :grid_preview
+
+</html>
