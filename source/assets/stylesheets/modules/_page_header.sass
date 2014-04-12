@@ -1,0 +1,23 @@
+.page-header
+  .section-grid
+    background: $black
+    color: $white
+
+  a
+    color: $white
+
+.nav-primary
+  ul
+    +clearfix
+
+@media #{$media-gt-small}
+  .nav-primary
+    li
+      float: left
+
+@media #{$media-gt-medium}
+  .logo
+    float: left
+
+  .nav-primary
+    float: right

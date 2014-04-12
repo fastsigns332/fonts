@@ -1,15 +1,35 @@
 ---
-title: Aloha world!
+title: The Gotta Be Good Tour 2014 | GiveGetWin
 description: ...
-javascripts: ['jquery', 'application']
+page_class: template-index
 ---
 
-.section-content
-  -# This span serves no purpose except to push %h1 away from its :first-child, marginless state
-  %span
-  %h1(style="text-align: center;") Aloha world!
-  %ul
-    %li= link_to "Style Guide", "/styleguide"
-    %li= link_to "Github", "https://github.com/kaizau/middleman-template-kaizau"
-    %li= link_to "Middleman", "http://middlemanapp.com/helpers/"
-    %li= link_to "Padrino", "http://www.padrinorb.com/api/Padrino/Helpers.html"
+.section.template-hero
+  = partial :page_header
+
+  .section-grid
+    %h1 
+      %span Highlights from the
+      %span Give Get Win Tour
+      %span 2014
+
+    %h3
+      Dr. Josh Spodek at NYU Stern School of Business
+
+.section-grid.template-content
+  .section
+    .text
+      %h2 A Magnificent Headline
+      %h3= lorem.sentence
+      %p= lorem.paragraph
+    .image
+
+  .section.with_background
+    .testimonial
+      .image
+      .text
+        %blockquote= lorem.sentence
+        %cite
+          %strong Joe Smith,
+          %span Some place
+
