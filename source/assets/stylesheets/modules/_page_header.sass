@@ -1,19 +1,50 @@
+$page-header-height: $space-v*2
+
 .page-header
+  line-height: $page-header-height
+
   .section-grid
     background: $black
-    color: $white
+    background: rgba(0,0,0,.5)
+    color: $green-light
+    font-weight: 300
+    font-family: $font-main
 
   a
-    color: $white
+    display: block
+    color: $blue-pale
+
+    &:hover
+
+  .logo
+    margin-bottom: 0
+    padding-top: ($page-header-height - image-height("logo.png"))/2
+
+    a
+      +replace-text("logo.png")
+      opacity: .7
+
+      &:hover
+        opacity: 1
 
 .nav-primary
   ul
     +clearfix
 
+  a
+    font-size: $font-medium
+
 @media #{$media-gt-small}
+  .page-header
+    height: $page-header-height
+
   .nav-primary
     li
       float: left
+      margin-left: $space-h/3*2
+
+      &:first-child
+        margin-left: 0
 
 @media #{$media-gt-medium}
   .logo

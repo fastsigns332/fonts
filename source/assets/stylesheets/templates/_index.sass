@@ -1,15 +1,22 @@
-.page-content
-  background: image-url("hero-nyu.jpg") no-repeat 80% 50%
-  +background-size(cover)
+.template-index 
+  .template-hero
+    background: image-url("hero-nyu.jpg") no-repeat 80% 50%
+    +background( linear-gradient(transparentize($blue-dark, 1) 90%, $blue-dark), image-url("hero-nyu.jpg") no-repeat 80% 50%)
+    +background-size(cover)
 
-.template-hero
-  color: $white
-  min-height: 400px
-  padding: 0 0 $space-v*2 0
+    h1
+      span
+        display: block
+        line-height: 1.2
 
-  .page-header
-    margin-bottom: $space-v*2
+      .smaller
+        font-size: 28px
+        font-weight: 100
+        margin-bottom: $space-v/2
 
-.template-content
-  background: $white
+      .larger
+        font-size: $font-largest * 1.5
+        font-weight: 300
 
+      .largest
+        font-size: $font-largest * 2

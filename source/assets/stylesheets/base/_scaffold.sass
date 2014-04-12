@@ -43,7 +43,7 @@ html
   padding-top: $total-height - $heading-height
 
 h1, h2, h3, h4
-  font: normal #{$font-largest}/1 $font-helvetica
+  font: normal #{$font-largest}/1 $font-main
 
 h1
   +heading-properties($font-largest)
@@ -166,6 +166,33 @@ small, code, sup, sub
 .block
   +block
   +clearfix
+
+.template-hero
+  color: $white
+  min-height: 600px
+  padding: 0 0 $space-v*6 0
+  position: relative
+
+  .page-header
+    margin-bottom: $space-v*2
+
+  .section-caption
+    bottom: $space-v*5
+    position: absolute
+
+  .caption
+    background: $black
+    background: rgba(0,0,0,.15)
+    color: $blue-pale
+    float: right
+    font-weight: 300
+    padding: $space-v/2 $space-h/2
+
+
+.template-content
+  background: $white
+  margin-top: 0 - $space-v*4
+  position: relative
 
 //
   Layout
