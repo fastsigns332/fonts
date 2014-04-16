@@ -1,0 +1,240 @@
+// **************************************************
+//
+// MUELLER
+// modular grid system
+//
+// _default.scss
+//
+// default styles for all media
+//
+// **************************************************
+
+ @import "zen-grids";
+  $zen-gutters: 5px; 
+  $zen-columns: 24; 
+
+
+
+body {
+    font-family: Bliss-Light;
+    font-weight: normal;
+    color: rgb(66, 68, 87);
+    background: #fbfbfb;
+    margin: 0; padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    div#wrapper {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+}
+
+#hero {
+	@include zen-grid-container();
+	width: 100%;
+	padding: 8% 10% 18% 10%;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	background-image: url("../img/hero.jpg");
+    @include background-size(cover); 
+    color: #fff;
+
+    div {
+		@include zen-grid-item(12, 2);
+	    height: 316px;
+	    
+	    h1 {
+	    	width: 100%;
+	    	padding-top: 13.75%;
+    		background: url("../img/ggw-logo.png") no-repeat;
+		    @include background-size(contain); 
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+	    }
+	    h2 {
+	    	margin: 1.25em 0 1.5em 0;
+	    	font-family: Bliss-Light;
+	    	text-transform: uppercase;
+	    	font-weight: light;
+	    	width: 100%;
+	    	letter-spacing: 1px;
+	    	strong {
+		    	font-family: Bliss-Bold;
+	    	}
+	    }
+	    p {
+	    	line-height: 1.75em;
+	    }
+	    .button {
+		    display: block;
+	  		float: left;
+			clear: both;
+			width: 35%;
+			height: 40px;
+			line-height: 40px;
+			margin-top: 10px;
+			font-family: Bliss-Light;
+			font-size: 20px;
+			letter-spacing: 1px;
+			border: 1px solid rgb(0, 72, 153);
+			border-radius: 3px;
+			background-color: rgb(26, 112, 208);
+			text-align: left;
+			padding-left: 10px;
+			color: rgb(255, 255, 255);
+	    }
+    }
+}
+
+br {
+	clear: both;
+}
+
+#about {
+	@include zen-grid-container();
+	width: 100%;
+	padding: 3% 0 6% 0;
+    color: rgb(66, 68, 87);
+
+
+	p.subtitle {
+		@include zen-grid-item(18, 4);
+		font-size: 1.75em;
+		line-height: 1.5em;
+		text-align: center;
+		margin-bottom: 2em;
+	}
+
+	div.left {
+		@include zen-grid-item(8, 5);
+		@include zen-new-row();
+		h3 {
+			font-family: Brandon-Bold;
+			text-transform: uppercase;
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			display: block;
+			text-transform: uppercase;
+			letter-spacing: 0.5px;
+			font-family: Bliss-Bold;
+			padding-top:0.65em;		
+		}
+	}
+	div.right {
+		@include zen-grid-item(7, 14);
+		-webkit-box-shadow: inset 0 0 12px rgba(0,0,0,.15);
+		-moz-box-shadow: inset 0 0 12px rgba(0,0,0,.15);
+		box-shadow: inset 0 0 12px rgba(0,0,0,.15);
+		background: url('../img/map.png') rgb(229, 229, 231);
+  		background-repeat: no-repeat;
+  		background-size: 85% auto;
+  		background-position: center 75%;
+  		padding: 0 0 17.5% 0;
+  		h3 {
+  			margin: 0 auto;
+  			text-align: center;
+			line-height: 2.25em;
+			font-family: Bliss-Italic;
+			font-size: 2em;
+  		}
+	}
+}
+
+#testimonial {
+	@include zen-grid-container();
+	padding: 5% 10% 6% 10%;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	background-image: url("../img/testimonial.jpg");
+    @include background-size(cover); 
+    color: #fff;
+    	p.quote {
+    		@include zen-grid-item(16, 2);
+    		font-family: Bliss-Light;
+    		font-style: Italic;
+			font-size: 1.5em;
+			letter-spacing: 1px;
+			line-height: 1.75em;
+    		text-shadow: 0 0 12px rgba(0,0,0,.75);
+    	}
+    	img {
+	    	@include zen-grid-item(2, 2);
+	    	@include zen-new-row();
+		}
+		p.details {
+			@include zen-grid-item(6, 4);
+			padding-left: 15px;
+		}
+    }
+
+#talks {
+	width: 100%;
+	padding: 5% 0 7.5% 0;
+    color: rgb(66, 68, 87);  
+    
+    h5 {
+    	font-family: Brandon-Bold;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #004899;
+		margin: 0.5em auto;
+		text-align: center;
+    }
+    h4 {
+    	font-size: 28px;
+		color: #424457;
+		margin: 0 auto 0.75em auto;
+		text-align: center;
+    } 
+    hr {
+    	width: 15%;
+    	color: #828282;
+		background-color: #828282;
+		height: 2px;
+    }
+    div {
+    width: 80%;
+    margin: 0 auto;
+	@include zen-grid-container();
+    }
+    a {
+    text-decoration: none;
+    }
+    a.one {
+		@include zen-grid-item(6, 0);
+    }
+    a.two {
+		@include zen-grid-item(6, 6);
+    }
+    a.three {
+		@include zen-grid-item(6, 12);
+    }        
+    a.four {
+		@include zen-grid-item(6, 18);
+    }     
+    div.video {
+    	width:90%;
+    	padding-bottom: 65.25%;
+    	color: #fff;
+    	&.sebastian {
+			background-image: url("../img/video-sebastian.jpg");
+	    	@include background-size(cover);     
+    	}
+    	&.zach {
+			background-image: url("../img/video-zach.jpg");
+	    	@include background-size(cover);     
+    	}    
+    	&.josef {
+			background-image: url("../img/video-josef.jpg");
+	    	@include background-size(cover);     
+    	}    
+    	&.kai {
+			background-image: url("../img/video-kai.jpg");
+	    	@include background-size(cover);     
+    	}        	    		
+    }       
+    }
