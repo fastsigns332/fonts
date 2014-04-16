@@ -173,7 +173,7 @@ br {
 
 #talks {
 	width: 100%;
-	padding: 5% 0 7.5% 0;
+	padding: 5% 0 2.5% 0;
     color: rgb(66, 68, 87);  
     
     h5 {
@@ -195,30 +195,51 @@ br {
     	color: #828282;
 		background-color: #828282;
 		height: 2px;
+		margin-bottom: 3em;
     }
     div {
-    width: 80%;
-    margin: 0 auto;
+    width: 87.5%;
+    margin: 1em auto;
 	@include zen-grid-container();
+   	@include zen-new-row();
+
     }
     a {
     text-decoration: none;
+    text-shadow: 0 0 12px rgba(0,0,0,.75);
+		span.name {
+    		font-family: Brandon-Bold;
+    		font-size: 0.75em;
+    		text-transform: uppercase;
+    		letter-spacing: 0.5px;
+    		padding-left: 1.35em;
+    		top: 0.75em;
+    		position: relative;
+    	}
+
+    	span.title {
+    		font-family: Bliss-Light;
+    		font-size: 1.4em;
+    		letter-spacing: 1px;
+    		padding-left: 0.75em;
+    		line-height: 1.75em;
+    	}
     }
     a.one {
-		@include zen-grid-item(6, 0);
+		@include zen-grid-item(6, 1);
     }
     a.two {
-		@include zen-grid-item(6, 6);
+		@include zen-grid-item(6, 7);
     }
     a.three {
-		@include zen-grid-item(6, 12);
+		@include zen-grid-item(6, 13);
     }        
     a.four {
-		@include zen-grid-item(6, 18);
+		@include zen-grid-item(6, 19);
     }     
     div.video {
     	width:90%;
-    	padding-bottom: 65.25%;
+    	padding-bottom: 52.25%;
     	color: #fff;
     	&.sebastian {
 			background-image: url("../img/video-sebastian.jpg");
@@ -237,4 +258,226 @@ br {
 	    	@include background-size(cover);     
     	}        	    		
     }       
+}
+
+#testimonial-two {
+	width: 90%;
+	margin: 0 auto;
+	padding: 2.5% 0 6.5% 0;
+    color: rgb(66, 68, 87);  
+    @include zen-grid-container();
+    
+    h5 {
+    	font-family: Brandon-Bold;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #004899;
+		margin: 0.5em auto;
+		text-align: center;
     }
+    h4 {
+    	font-size: 28px;
+		color: #424457;
+		margin: 0 auto 0.75em auto;
+		text-align: center;
+    } 
+    hr {
+    	width: 15%;
+    	color: #828282;
+		background-color: #828282;
+		height: 2px;
+		margin-bottom: 2em;
+    }
+    div {
+    	div {
+    		width: 90%;
+    		margin: 0 auto;
+
+    		p {
+    		font-family: Bliss-Light;
+    		font-style: italic;
+    		letter-spacing: 0.5px;
+    		font-size: 1.25em;
+    		line-height: 1.5em;
+    		margin: 1em auto;
+    		}
+    		img {
+    		vertical-align: middle;
+    		float: left;
+    		display: inline;
+    		width: 25%;
+    		}
+    		p.details {
+	    		display: inline;
+	    		float: left;
+	    		font-style: normal;
+	    		vertical-align: middle;
+	    		margin: 0 auto;
+	    		
+	    		span.name {
+	    			margin-left: 1.5em;
+	    			font-size: 0.9em;
+	    			line-height: 1em;
+	    			font-family: Bliss-Bold;
+	    			
+	    		}
+	    		span.position {
+	    			margin-left: 1.85em;
+	    			font-family: Brandon-Bold;
+	    			text-transform: uppercase;
+	    			line-height: 1em;
+	    			font-size: 0.75em;
+	    		}
+    		}
+
+    	}
+
+    	&.one {
+    	@include zen-grid-item(8, 1);
+    	}
+    	&.two {
+    	@include zen-grid-item(8, 9);
+    	}
+    	&.three {
+    	@include zen-grid-item(8, 17);
+    	}
+    }
+}
+
+hr {
+	width: 87.5%;
+	margin: 0 auto;
+    color: #828282;
+	background-color: #828282;
+	height: 1px;
+	border: 0;
+	&.clear {
+	margin-bottom: 5%;
+	}
+}
+
+#thanks {
+	width: 90%;
+	margin: 0 auto;
+	padding: 5% 0 0% 0;
+    color: rgb(66, 68, 87);  
+    
+    h5 {
+    	font-family: Brandon-Bold;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #004899;
+		margin: 0.5em auto;
+		text-align: center;
+    }
+    h4 {
+    	font-size: 28px;
+		color: #424457;
+		margin: 0 auto 0.75em auto;
+		text-align: center;
+    } 
+    hr {
+    	width: 15%;
+    	color: #828282;
+		background-color: #828282;
+		height: 2px;
+		margin-bottom: 2em;
+    }        
+    p {
+    	margin: 0.5em auto;
+		text-align: center;
+		width: 65%;
+    }
+    img {
+	    margin: 3em 10%;
+	    width: 80%;
+	    max-width: 1000px;
+
+
+    }
+}
+
+#volunteer {
+	width: 100%;
+	padding-bottom: 30%;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	background-image: url("../img/volunteer.jpg");
+    @include background-size(cover); 
+    color: #fff;
+    position: relative;
+    overflow:hidden;
+	
+	div.blur {
+		width: 50%;
+		margin: 0 35% 0 15%;
+		background-image: url("../img/volunteer.jpg");
+		background-size: 200% 105%;
+		background-position: 30% 0;
+		padding-bottom: 30%;
+		position: absolute;
+		top: 0;
+	}
+	div.content {
+		width: 40%;
+		margin: 0 35% 0 15%;
+		background-color: rgba(0,0,0,0.5);
+		position: absolute;
+		top: 0;
+		height: 100%;
+		padding: 4% 5%;
+		
+		h5 {
+    	width: 70%;
+		padding: 0 0 7.5% 0;
+		margin: 0;
+		background: url("../img/ggw-logo.png") no-repeat;
+    	@include background-size(contain); 
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	    }
+	    h6 {
+		font-family: Brandon-Bold;
+		text-transform: uppercase;
+		font-size: 1.6em;
+		letter-spacing: 1px;
+		padding: 0.75em 0 0.25em 0;
+		margin: 0;
+	    }
+	    }	
+	}
+
+#register {
+	width: 90%;
+	margin: 0 auto;
+	padding: 5% 0 0% 0;
+    color: rgb(66, 68, 87);  
+    
+    h5 {
+    	font-family: Brandon-Bold;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #004899;
+		margin: 0.5em auto;
+		text-align: center;
+    }
+    h4 {
+    	font-size: 28px;
+		color: #424457;
+		margin: 0 auto 0.75em auto;
+		text-align: center;
+    } 
+    hr {
+    	width: 15%;
+    	color: #828282;
+		background-color: #828282;
+		height: 2px;
+		margin-bottom: 2em;
+    }        
+    p {
+    	margin: 0.5em auto;
+		text-align: center;
+		width: 65%;
+    }	
+}
+

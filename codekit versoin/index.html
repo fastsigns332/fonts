@@ -58,33 +58,133 @@
     <div>
     <a class="one" href="">
         <div class="video sebastian">
-            Sebastian Marshall
+            <span class="name">Sebastian Marshall</span><br>
+            <span class="title">Eating Salt</span>
         </div>
     </a>    
     <a class="two" href="">
         <div class="video zach">
-            Zach Obront
+            <span class="name">Zach Obront</span><br>
+            <span class="title">Hacking Your Psychology</span>
         </div>
     </a>    
     <a class="three" href="">
         <div class="video josef">
-            Josef Wasinski
+            <span class="name">Josef Wasinski</span><br>
+            <span class="title">Selling Yourself</span>
         </div>
     </a>    
     <a class="four" href="">
         <div class="video kai">
-            Kai Zau
+            <span class="name">Kai Zau</span><br>
+            <span class="title">Lucky By Choice</span>
         </div>
     </a>    
+    </div>
     <div>
+    <a class="one" href="">
+        <div class="video sebastian">
+            <span class="name">Sebastian Marshall</span><br>
+            <span class="title">Eating Salt</span>
+        </div>
+    </a>    
+    <a class="two" href="">
+        <div class="video zach">
+            <span class="name">Zach Obront</span><br>
+            <span class="title">Hacking Your Psychology</span>
+        </div>
+    </a>    
+    <a class="three" href="">
+        <div class="video josef">
+            <span class="name">Josef Wasinski</span><br>
+            <span class="title">Selling Yourself</span>
+        </div>
+    </a>    
+    <a class="four" href="">
+        <div class="video kai">
+            <span class="name">Kai Zau</span><br>
+            <span class="title">Lucky By Choice</span>
+        </div>
+    </a>    
+    </div>        
+</div>
+
+<div id="testimonial-two">
+    <h5>Testimonials</h5>
+    <h4>A Few Kind Words From Our Attendees</h4>
+    <hr>
+    <div class="one">
+        <div>
+            <p>A Subtitle with some more information and a nice lead into the rest of the page goes right here. A Subtitle with some more information and a nice lead into the rest of the page goes right here and a nice lead into.</p>
+            <img class="icon" src="img/icon.png">
+            <p class="details">
+                <span class="name">Chris Jones</span><br>
+                <span class="position">Position At Company</span>
+            </p>
+        </div>
+    </div>
+    <div class="two">
+        <div>
+            <p>A Subtitle with some more information and a nice lead into the rest of the page goes right here. A Subtitle with some more information and a nice lead into the rest of the page goes right here and a nice lead into.</p>
+            <img class="icon" src="img/icon.png">
+            <p class="details">
+                <span class="name">Chris Jones</span><br>
+                <span class="position">Position At Company</span>
+            </p>
+        </div>
+    </div>
+    <div class="three">
+        <div>
+            <p>A Subtitle with some more information and a nice lead into the rest of the page goes right here. A Subtitle with some more information and a nice lead into the rest of the page goes right here and a nice lead into.</p>
+            <img class="icon" src="img/icon.png">
+            <p class="details">
+                <span class="name">Chris Jones</span><br>
+                <span class="position">Position At Company</span>
+            </p>
+        </div>
+    </div>
+</div>
+<hr>
+
+<div id="thanks">
+    <h5>Special Thanks To</h5>
+    <h4>Some Amazing People & Companies</h4>
+    <p>A Few Kind Words From Our Attendees... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper, mi in estis varius sollicitu din, ligula metu. Curabitur semper, mi in estis varius sollicitu din, ligula metu.</p>
+    <img class="icon" src="img/logo.png">
 </div>
 
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+<hr class="clear">    
+
+<div id="volunteer">
+    <div class="blur"><br></div>
+    <div class="content">
+        <h5>Give Get Win</h5>    
+        <h6>Join The Volunteer Team</h6>
+        <p>A Few Kind Words From Our Attendees... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper, mi in estis varius sollicitu din, ligula metu. Curabitur semper, mi in estis varius sollicitu din, ligula metu.</p>
+        <p>A Few Kind Words From Our Attendees... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper, mi in estis varius sollicitu din, ligula metu. Curabitur semper, mi in estis varius sollicitu din, ligula metu.</p>
+    </div>
+</div>
+<div id="register">
+    <h5>Register</h5>
+    <h4>Join The Newsletter For Info</h4>
+    <p>A Few Kind Words From Our Attendees... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper, mi in estis varius sollicitu din, ligula metu. Curabitur semper, mi in estis varius sollicitu din, ligula metu.</p>
+    <form>
+    <input type="text" name="name" placeholder="Your Name...">
+    <input type="text" name="email" placeholder="Email@Address.com...">
+    <input type="submit" value="Register">
+    </form>
+</div>
+
+
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
         <script src="js/bigtext.js"></script>
+        <script>$('#fill').bigtext({});</script>
+        <script src="js/vague.js"></script>
         <script>
-        $('#fill').bigtext({
-        });
+            var vague = $(".blur").Vague({intensity:3});
+            vague.blur();
         </script>
 
 
