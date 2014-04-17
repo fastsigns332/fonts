@@ -39,20 +39,23 @@ body {
 	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 	background-image: url("../img/hero.jpg");
     @include background-size(cover); 
+    background-position: centre right;
     color: #fff;
 
     div {
 		@include zen-grid-item(12, 2);
 	    height: 316px;
+	    min-width: 500px;
 	    
 	    h1 {
 	    	width: 100%;
 	    	padding-top: 13.75%;
     		background: url("../img/ggw-logo.png") no-repeat;
 		    @include background-size(contain); 
-			text-indent: 100%;
+			text-indent: 1000%;
 			white-space: nowrap;
 			overflow: hidden;
+			margin: 0;
 	    }
 	    h2 {
 	    	margin: 1.25em 0 1.5em 0;
@@ -61,6 +64,7 @@ body {
 	    	font-weight: light;
 	    	width: 100%;
 	    	letter-spacing: 1px;
+	    	margin: 0.1em 0 0.55em 0;
 	    	strong {
 		    	font-family: Bliss-Bold;
 	    	}
@@ -72,19 +76,26 @@ body {
 		    display: block;
 	  		float: left;
 			clear: both;
-			width: 35%;
 			height: 40px;
 			line-height: 40px;
 			margin-top: 10px;
 			font-family: Bliss-Light;
 			font-size: 20px;
 			letter-spacing: 1px;
-			border: 1px solid rgb(0, 72, 153);
-			border-radius: 3px;
+			border: 2px solid rgb(0, 72, 153);
+    		@include border-radius(3px);
 			background-color: rgb(26, 112, 208);
 			text-align: left;
-			padding-left: 10px;
+			padding: 0 40px 0 10px;
 			color: rgb(255, 255, 255);
+			cursor: pointer;
+			text-decoration: none;
+			&.play {
+				background-image: url("../img/play.png");
+				background-position: 95% 49%;
+				background-size: 17.5%;
+				background-repeat: no-repeat;
+			}
 	    }
     }
 }
@@ -102,10 +113,10 @@ br {
 
 	p.subtitle {
 		@include zen-grid-item(18, 4);
-		font-size: 1.75em;
+		font-size: 2.25em;
 		line-height: 1.5em;
 		text-align: center;
-		margin-bottom: 2em;
+		margin-bottom: 1.75em;
 	}
 
 	div.left {
@@ -116,6 +127,9 @@ br {
 			text-transform: uppercase;
 			margin: 0;
 			padding: 0;
+		}
+		p {
+		line-height: 1.5em;
 		}
 		a {
 			display: block;
@@ -160,14 +174,25 @@ br {
 			letter-spacing: 1px;
 			line-height: 1.75em;
     		text-shadow: 0 0 12px rgba(0,0,0,.75);
+    		min-width: 500px;
     	}
     	img {
 	    	@include zen-grid-item(2, 2);
 	    	@include zen-new-row();
+
 		}
 		p.details {
-			@include zen-grid-item(6, 4);
+			@include zen-grid-item(8, 4);
 			padding-left: 15px;
+			letter-spacing: 1px;
+			span.name {
+				font-size: 1.5em;
+				line-height: 1.5em;
+			}
+			span.position {
+				font-family: Bliss-Italic;
+				font-size: 0.9em;
+			}
 		}
     }
 
@@ -207,22 +232,24 @@ br {
     a {
     text-decoration: none;
     text-shadow: 0 0 12px rgba(0,0,0,.75);
+
 		span.name {
     		font-family: Brandon-Bold;
     		font-size: 0.75em;
     		text-transform: uppercase;
     		letter-spacing: 0.5px;
     		padding-left: 1.35em;
-    		top: 0.75em;
+    		top: 1em;
     		position: relative;
     	}
 
     	span.title {
     		font-family: Bliss-Light;
-    		font-size: 1.4em;
+    		font-size: 1.25em;
     		letter-spacing: 1px;
     		padding-left: 0.75em;
-    		line-height: 1.75em;
+    		line-height: 2.4em;
+    		padding-right: 0.75em;
     	}
     }
     a.one {
@@ -243,20 +270,53 @@ br {
     	color: #fff;
     	&.sebastian {
 			background-image: url("../img/video-sebastian.jpg");
-	    	@include background-size(cover);     
+	    	@include background-size(100% 100%);     
+	    	&:hover {
+				background-image: url("../img/video-sebastian-h.jpg");	    	
+	    	}   	    	
     	}
     	&.zach {
 			background-image: url("../img/video-zach.jpg");
-	    	@include background-size(cover);     
+	    	@include background-size(100% 100%);   
+	    	&:hover {
+				background-image: url("../img/video-zach-h.jpg");	    	
+	    	}   	    	   
     	}    
     	&.josef {
 			background-image: url("../img/video-josef.jpg");
-	    	@include background-size(cover);     
+	    	@include background-size(100% 100%);   
+	    	&:hover {
+				background-image: url("../img/video-josef-h.jpg");	    	
+	    	}     	    	  
     	}    
     	&.kai {
 			background-image: url("../img/video-kai.jpg");
-	    	@include background-size(cover);     
-    	}        	    		
+	    	@include background-size(100% 100%);     
+	    	&:hover {
+				background-image: url("../img/video-kai-h.jpg");	    	
+	    	}     	    	
+    	}  
+    	&.stacey {
+			background-image: url("../img/video-stacey.jpg");
+	    	@include background-size(100% 100%);
+	    	&:hover {
+				background-image: url("../img/video-stacey-h.jpg");	    	
+	    	}     
+    	}
+    	&.rahn {
+			background-image: url("../img/video-rahn.jpg");
+	    	@include background-size(100% 100%);
+	    	&:hover {
+				background-image: url("../img/video-rahn-h.jpg");	    	
+	    	}     
+    	}   
+    	&.bobzin {
+			background-image: url("../img/video-bobzin.jpg");
+	    	@include background-size(100% 100%);
+	    	&:hover {
+				background-image: url("../img/video-bobzin-h.jpg");	    	
+	    	}     
+    	}       	 	      	      	    		
     }       
 }
 
@@ -427,30 +487,49 @@ hr {
 		padding: 4% 5%;
 		
 		h5 {
-    	width: 70%;
-		padding: 0 0 7.5% 0;
-		margin: 0;
-		background: url("../img/ggw-logo.png") no-repeat;
-    	@include background-size(contain); 
-		text-indent: 100%;
-		white-space: nowrap;
-		overflow: hidden;
+	    	width: 70%;
+			padding: 0 0 7.5% 0;
+			margin: 0;
+			background: url("../img/ggw-logo.png") no-repeat;
+	    	@include background-size(contain); 
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
 	    }
+
 	    h6 {
-		font-family: Brandon-Bold;
-		text-transform: uppercase;
-		font-size: 1.6em;
-		letter-spacing: 1px;
-		padding: 0.75em 0 0.25em 0;
-		margin: 0;
+			font-family: Brandon-Bold;
+			text-transform: uppercase;
+			font-size: 1.6em;
+			letter-spacing: 1px;
+			padding: 0.75em 0 0 0;
+			margin: 0;
 	    }
+
+		.button {
+		    display: block;
+	  		float: left;
+			clear: both;
+			height: 1.75em;
+			line-height: 1.75em;
+			font-family: Bliss-Light;
+			letter-spacing: 1px;
+			border: 2px solid #fff;
+    		@include border-radius(3px);
+			background-color: transparent;
+			text-align: left;
+			padding: 0.125em 0.5em;
+			color: rgb(255, 255, 255);
+			cursor: pointer;
+			text-decoration: none;
+			}
 	    }	
 	}
 
 #register {
 	width: 90%;
 	margin: 0 auto;
-	padding: 5% 0 0% 0;
+	padding: 5% 0 5% 0;
     color: rgb(66, 68, 87);  
     
     h5 {
@@ -479,5 +558,28 @@ hr {
 		text-align: center;
 		width: 65%;
     }	
-}
+    form {
+    	margin: 1em auto;
+    	text-align: center;
 
+    	input {
+    		margin: 1em 0.5em;
+    		font-size: 1em;
+    		line-height: 1.5em;
+    		height: 1.5em;
+    		@include border-radius(4px);
+    		padding: 0.25em 0.75em;
+    		letter-spacing: 1px;
+    		width: auto;
+    	}
+    	input[type="submit"] {
+    		color: #fff;
+    		border: 2px solid rgb(0, 72, 153);
+			background-color: rgb(26, 112, 208);
+			padding: 0.25em 0.75em;
+			line-height: 1.65em;
+			height: 2.25em;
+			cursor: pointer;
+    	}
+    }
+}

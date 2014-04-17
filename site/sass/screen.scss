@@ -8,8 +8,10 @@
 $zen-column-count: 12; // Set the total number of columns in the grid.
 $zen-gutter-width: 15px;
 
-
 @import "base";
 @import "default";
+@import "media";
+
 
 // ------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,74 @@
+
+
+@media (max-width : 1300px) {
+	#talks a span.name { font-size: 0.65em; top: 0.7em; }	
+  	#talks a span.title { font-size: 1.15em; line-height: 2.4em; }	
+}
+
+@media (max-width : 1200px)  {
+	#talks a span.name { font-size: 0.55em; top: 0.5em}	
+  	#talks a span.title { font-size: 0.95em; line-height: 2.2em; }
+
+  	#testimonial p.details { margin-top: 0em;}
+
+  	#volunteer p.two { display: none; }
+
+}
+
+@media (max-width : 1024px)  {
+	#talks a span.name { font-size: 0.95em; top: 1em; }	
+  	#talks a span.title { font-size: 1.6em; line-height: 2.4em; }	
+
+	#talks a.one { @include zen-grid-item(12, 1); }
+	#talks a.two { @include zen-grid-item(12, 13); }
+	#talks a.three { @include zen-grid-item(12, 1); @include zen-new-row(); }
+	#talks a.four { @include zen-grid-item(12, 13); }	
+
+
+	#about div.left { @include zen-grid-item(18, 4); }
+	#about div.right { display: none; }
+
+	#testimonial p.details { margin-top: -0.75em;}
+
+	#volunteer div.content h6 { padding-top: 0.25em; }
+	#volunteer div.content p { margin: 0.5em 0 1em 0; }
+	#volunteer div.blur { width: 100%; margin: 0; background-size: cover; }
+	#volunteer div.content { width: 60%; margin: 0; padding: 5% 20%;}
+	#volunteer { padding-bottom: 40%; }
+	#volunteer div.blur { padding-bottom: 40%; }
+}
+
+@media (max-width : 800px)  {
+
+	#talks a span.name { font-size: 0.85em; top: 1em; }	
+  	#talks a span.title { font-size: 1.5em; line-height: 2.4em; }	
+
+}
+
+@media (max-width : 765px)  {
+
+	#hero div { width: 90%; margin: 5%; min-width: 0px; text-align: center;}
+	#hero div .button { margin: 0 auto; text-align: center; display: inline-block; float: none;}
+
+	#about p.subtitle { font-size: 1.5em; width: 90%; margin: 0.75em 5%;}
+
+	#testimonial p.quote {width: 100%; margin: 1em 0; min-width: 0; font-size: 1.2em;}
+	#testimonial img { width: 20%;}
+	#testimonial p.details { margin-top: -0.15em; margin-left: 25%; width: 75%;}
+
+	#talks a.one { @include zen-grid-item(24, 1); @include zen-new-row(); }
+	#talks a.two { @include zen-grid-item(24, 1); @include zen-new-row(); }
+	#talks a.three { @include zen-grid-item(24, 1); @include zen-new-row(); }
+	#talks a.four { @include zen-grid-item(24, 1); @include zen-new-row(); }
+
+	#talks a span.name { font-size: 1em; top: 1.25em; }	
+  	#talks a span.title { font-size: 2em; line-height: 2.8em; padding-left: 0.65em; padding-right: 0.65em; }	
+
+  	#testimonial-two div.one { @include zen-grid-item(24, 1); @include zen-new-row(); }
+  	#testimonial-two div.two { @include zen-grid-item(24, 1); @include zen-new-row(); }
+  	#testimonial-two div.three { @include zen-grid-item(24, 1); @include zen-new-row(); }
+
+  	#thanks p { width: 90%;}
+
+  	#volunteer div.content h6 { display: none;}
+}
