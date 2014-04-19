@@ -191,7 +191,11 @@ br {
 			}
 			span.position {
 				font-family: Bliss-Italic;
-				font-size: 0.9em;
+				line-height: 1.5em;
+				font-size: 0.65em; 
+				margin-left: 2.25em;
+				overflow: auto;
+				display: inline-table;
 			}
 		}
     }

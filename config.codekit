@@ -2,13 +2,438 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16877",
 "files": {
-	"\/config.rb": {
-		"fileType": 131072,
+	"\/site\/css\/screen.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/css\/screen.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/img\/ggw-logo.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/config.rb",
-		"outputAbbreviatedPath": "\/config.rb",
+		"initialSize": 39526,
+		"inputAbbreviatedPath": "\/site\/img\/ggw-logo.png",
+		"outputAbbreviatedPath": "\/site\/img\/ggw-logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 612256,
+		"inputAbbreviatedPath": "\/site\/img\/hero.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/hero.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16585,
+		"inputAbbreviatedPath": "\/site\/img\/icon.png",
+		"outputAbbreviatedPath": "\/site\/img\/icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61131,
+		"inputAbbreviatedPath": "\/site\/img\/logo.png",
+		"outputAbbreviatedPath": "\/site\/img\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61478,
+		"inputAbbreviatedPath": "\/site\/img\/map.png",
+		"outputAbbreviatedPath": "\/site\/img\/map.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21656,
+		"inputAbbreviatedPath": "\/site\/img\/play.png",
+		"outputAbbreviatedPath": "\/site\/img\/play.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/testimonial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 229625,
+		"inputAbbreviatedPath": "\/site\/img\/testimonial.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/testimonial.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/untitled\/css\/index-grid.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/img\/untitled\/css\/index-grid.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
+		},
+	"\/site\/img\/untitled\/css\/index.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/img\/untitled\/css\/index.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/img\/untitled\/css\/standardize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/img\/untitled\/css\/standardize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/img\/untitled\/images\/ggw-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39526,
+		"inputAbbreviatedPath": "\/site\/img\/untitled\/images\/ggw-logo.png",
+		"outputAbbreviatedPath": "\/site\/img\/untitled\/images\/ggw-logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/untitled\/images\/hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 462027,
+		"inputAbbreviatedPath": "\/site\/img\/untitled\/images\/hero.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/untitled\/images\/hero.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/untitled\/images\/map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61478,
+		"inputAbbreviatedPath": "\/site\/img\/untitled\/images\/map.png",
+		"outputAbbreviatedPath": "\/site\/img\/untitled\/images\/map.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/untitled\/images\/testimonial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 229625,
+		"inputAbbreviatedPath": "\/site\/img\/untitled\/images\/testimonial.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/untitled\/images\/testimonial.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/untitled\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/img\/untitled\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/img\/untitled\/js\/jquery-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/img\/untitled\/js\/jquery-min.js",
+		"outputAbbreviatedPath": "\/site\/img\/untitled\/js\/min\/jquery-min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/site\/img\/video-bobzin-h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91850,
+		"inputAbbreviatedPath": "\/site\/img\/video-bobzin-h.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-bobzin-h.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-bobzin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79115,
+		"inputAbbreviatedPath": "\/site\/img\/video-bobzin.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-bobzin.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-josef-h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105730,
+		"inputAbbreviatedPath": "\/site\/img\/video-josef-h.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-josef-h.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-josef.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87350,
+		"inputAbbreviatedPath": "\/site\/img\/video-josef.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-josef.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-kai-h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82306,
+		"inputAbbreviatedPath": "\/site\/img\/video-kai-h.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-kai-h.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-kai.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72535,
+		"inputAbbreviatedPath": "\/site\/img\/video-kai.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-kai.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-rahn-h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87184,
+		"inputAbbreviatedPath": "\/site\/img\/video-rahn-h.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-rahn-h.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-rahn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74617,
+		"inputAbbreviatedPath": "\/site\/img\/video-rahn.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-rahn.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-sebastian-h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109677,
+		"inputAbbreviatedPath": "\/site\/img\/video-sebastian-h.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-sebastian-h.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-sebastian.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89569,
+		"inputAbbreviatedPath": "\/site\/img\/video-sebastian.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-sebastian.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-stacey-h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55313,
+		"inputAbbreviatedPath": "\/site\/img\/video-stacey-h.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-stacey-h.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-stacey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43184,
+		"inputAbbreviatedPath": "\/site\/img\/video-stacey.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-stacey.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-zach-h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72693,
+		"inputAbbreviatedPath": "\/site\/img\/video-zach-h.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-zach-h.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/video-zach.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64995,
+		"inputAbbreviatedPath": "\/site\/img\/video-zach.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/video-zach.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/viet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47418,
+		"inputAbbreviatedPath": "\/site\/img\/viet.png",
+		"outputAbbreviatedPath": "\/site\/img\/viet.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/volunteer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 532117,
+		"inputAbbreviatedPath": "\/site\/img\/volunteer.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/volunteer.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/js\/bigtext.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/js\/bigtext.js",
+		"outputAbbreviatedPath": "\/site\/js\/min\/bigtext-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/site\/js\/min\/Vague-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/js\/min\/Vague-ck.js",
+		"outputAbbreviatedPath": "\/site\/js\/min\/min\/Vague-ck-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/site\/js\/vague.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/js\/vague.js",
+		"outputAbbreviatedPath": "\/site\/js\/min\/vague-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/site\/sass\/_base.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/sass\/_base.scss",
+		"outputAbbreviatedPath": "\/site\/css\/_base.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/site\/sass\/_default.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/sass\/_default.scss",
+		"outputAbbreviatedPath": "\/site\/css\/_default.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/site\/sass\/_media.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/sass\/_media.scss",
+		"outputAbbreviatedPath": "\/site\/css\/_media.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/site\/sass\/_zen-grids.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/sass\/_zen-grids.scss",
+		"outputAbbreviatedPath": "\/site\/css\/_zen-grids.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/site\/sass\/screen.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/sass\/screen.scss",
+		"outputAbbreviatedPath": "\/site\/css\/screen.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/site\/sass\/zen-grids\/_background.scss": {
 		"createSourceMap": 0,
