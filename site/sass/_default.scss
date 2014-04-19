@@ -110,6 +110,12 @@ br {
 	padding: 3% 0 6% 0;
     color: rgb(66, 68, 87);
 
+    a {
+    	color: #1a70d0;
+    	&:hover {
+    		color: #004899
+    	}
+    }
 
 	p.subtitle {
 		@include zen-grid-item(18, 4);
@@ -307,6 +313,13 @@ br {
 				background-image: url("../img/video-stacey-h.jpg");	    	
 	    	}     
     	}
+    	&.taylor {
+			background-image: url("../img/video-taylor.jpg");
+	    	@include background-size(100% 100%);
+	    	&:hover {
+				background-image: url("../img/video-taylor-h.jpg");	    	
+	    	}     
+    	}      	
     	&.rahn {
 			background-image: url("../img/video-rahn.jpg");
 	    	@include background-size(100% 100%);
@@ -377,6 +390,7 @@ br {
 	    		font-style: normal;
 	    		vertical-align: middle;
 	    		margin: 0 auto;
+	    		width: 75%;
 	    		
 	    		span.name {
 	    			margin-left: 1.5em;
@@ -389,8 +403,10 @@ br {
 	    			margin-left: 1.85em;
 	    			font-family: Brandon-Bold;
 	    			text-transform: uppercase;
-	    			line-height: 1em;
+	    			line-height: 1.5em;
+	    			max-width: 205px;
 	    			font-size: 0.75em;
+	    			display: inline-block;
 	    		}
     		}
 
@@ -526,6 +542,11 @@ hr {
 			color: rgb(255, 255, 255);
 			cursor: pointer;
 			text-decoration: none;
+			
+			&:hover {
+				background-color: #fff;
+				color: #424457;
+			}
 			}
 	    }	
 	}

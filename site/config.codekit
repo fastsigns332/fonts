@@ -78,6 +78,36 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/review-ani.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48800,
+		"inputAbbreviatedPath": "\/img\/review-ani.jpg",
+		"outputAbbreviatedPath": "\/img\/review-ani.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/review-josh.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46113,
+		"inputAbbreviatedPath": "\/img\/review-josh.jpg",
+		"outputAbbreviatedPath": "\/img\/review-josh.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/review-vj.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37110,
+		"inputAbbreviatedPath": "\/img\/review-vj.jpg",
+		"outputAbbreviatedPath": "\/img\/review-vj.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/testimonial.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -87,88 +117,6 @@
 		"outputAbbreviatedPath": "\/img\/testimonial.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/img\/untitled\/css\/index-grid.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/img\/untitled\/css\/index-grid.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/img\/untitled\/css\/index.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/img\/untitled\/css\/index.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/img\/untitled\/css\/standardize.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/img\/untitled\/css\/standardize.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/img\/untitled\/images\/ggw-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39526,
-		"inputAbbreviatedPath": "\/img\/untitled\/images\/ggw-logo.png",
-		"outputAbbreviatedPath": "\/img\/untitled\/images\/ggw-logo.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/untitled\/images\/hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 462027,
-		"inputAbbreviatedPath": "\/img\/untitled\/images\/hero.jpg",
-		"outputAbbreviatedPath": "\/img\/untitled\/images\/hero.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/untitled\/images\/map.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61478,
-		"inputAbbreviatedPath": "\/img\/untitled\/images\/map.png",
-		"outputAbbreviatedPath": "\/img\/untitled\/images\/map.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/untitled\/images\/testimonial.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 229625,
-		"inputAbbreviatedPath": "\/img\/untitled\/images\/testimonial.jpg",
-		"outputAbbreviatedPath": "\/img\/untitled\/images\/testimonial.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/untitled\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/img\/untitled\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/img\/untitled\/js\/jquery-min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/img\/untitled\/js\/jquery-min.js",
-		"outputAbbreviatedPath": "\/img\/untitled\/js\/min\/jquery-min-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/img\/video-bobzin-h.jpg": {
 		"fileType": 16384,
@@ -287,6 +235,26 @@
 		"initialSize": 39387,
 		"inputAbbreviatedPath": "\/img\/video-stacey.jpg",
 		"outputAbbreviatedPath": "\/img\/video-stacey.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/video-taylor-h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87007,
+		"inputAbbreviatedPath": "\/img\/video-taylor-h.jpg",
+		"outputAbbreviatedPath": "\/img\/video-taylor-h.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/video-taylor.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82848,
+		"inputAbbreviatedPath": "\/img\/video-taylor.jpg",
+		"outputAbbreviatedPath": "\/img\/video-taylor.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
